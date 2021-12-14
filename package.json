@@ -1,16 +1,16 @@
 {
+  "homepage": "https://JAMATX38.github.io/react-gh-pages",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^3.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,7 +33,8 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.8.0",
-    "@testing-library/react": "^9.5.0"
-  },
-  "homepage": "https://github.com/JAMATX38/HOMEWORK-20.git"
+    "@testing-library/react": "^9.5.0",
+    "gh-pages": "^3.2.3"
+  }
+  
 }

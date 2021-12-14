@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../../assets/cover/binary-code-6109177.jpg';
+import coverImage from '../../assests/cover/binary-code-6109177.jpg';
 
 function Header(props) {
 
